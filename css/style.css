@@ -127,6 +127,7 @@ h2{
     right: 20px;
     top: 35px;
 }
+
 /* 
     HEADER
 */
@@ -144,6 +145,10 @@ header .header-cell *{
     text-decoration: none;
     padding: 5px;
 }
+.percentual-container:hover .hover {
+    display: block;
+}
+
 /* 
     FOOTER
 */
@@ -151,6 +156,5 @@ footer .footer-bottom{
     background-color: black;
     height: 120px;
 }
-
 
 
