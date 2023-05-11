@@ -22,6 +22,11 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+.my-row-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 ul{
     list-style-type: none;
 }
@@ -67,6 +72,19 @@ span{
     color: black;
     font-weight: initial;
 }
+h2{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1em;
+}
+.description a{
+    color: white;
+}
+.logo a{
+    color: white;
+    padding: 5px;
+}
 /* 
     HEADER
 */
@@ -85,8 +103,12 @@ header .header-cell *{
     padding: 5px;
 }
 /* 
-    MAIN
+    FOOTER
 */
+footer .footer-bottom{
+    background-color: black;
+    height: 120px;
+}
 
 
 
