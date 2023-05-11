@@ -85,6 +85,48 @@ h2{
     color: white;
     padding: 5px;
 }
+.percentual-container {
+    position: relative;
+}
+.name-col {
+    background-color: green;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left: 20px;
+    bottom: 70px;
+}
+.name-col-2 {
+    background-color: green;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left: 70px;
+    bottom: 70px;
+}
+.name-col:nth-child(odd){
+    background-color: green;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left: 70px;
+    bottom: 70px;
+}
+.percentual-col {
+    background-color: red;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left: 20px;
+    bottom: 70px;
+}
+.heart {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
 /* 
     HEADER
 */
